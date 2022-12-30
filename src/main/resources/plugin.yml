@@ -1,0 +1,12 @@
+name: SignFinder
+version: '${version}'
+main: de.neo.signfinder.SignFinder
+api-version: 1.19
+authors: [ Neo8 ]
+commands:
+  signfinder:
+    description: Find signs
+    usage: /signfinder <text>
+    permission: signfinder.find
+    permission-message: You don't have permission to use this command!
+    aliases: [ sf ]
